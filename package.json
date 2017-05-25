@@ -5,7 +5,7 @@
   "private": true,
   "author": "Andrew McBurney",
   "scripts": {
-    "start": "node ./bin/run",
+    "start": "node ./target/bin/run.js",
     "grunt": "grunt"
   },
   "dependencies": {

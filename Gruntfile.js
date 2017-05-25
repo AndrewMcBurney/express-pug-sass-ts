@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     ts: {
       app: {
         files: [{
-          src: ["app.ts", "routes/\*\*/\*.ts"],
+          src: ["bin/run.ts", "app.ts", "routes/\*\*/\*.ts"],
           dest: "./target"
         }],
         options: {
