@@ -60,4 +60,8 @@ app.use((error: any, req, res, next)  => {
   return null;
 });
 
+// For ts
 export default app;
+
+// For js
+module.exports = app;
